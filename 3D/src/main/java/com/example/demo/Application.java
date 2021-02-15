@@ -28,7 +28,7 @@ public class Application {
         return "the 3D boiiis";
     }
 
-    public String greet(){
-        return "Varga György";
+    public String greet(String name){
+        return name;
     }
 }
