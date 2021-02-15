@@ -17,7 +17,7 @@ public class Application {
 
         application.cheer("the 3D boiiiiiiiiiiis");
         System.out.println(application.count(5000));
-        System.out.println(application.greet("Varga György"));
+        System.out.println(application.greet("Greeting!"));
 
     }
 
