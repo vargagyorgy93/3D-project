@@ -14,13 +14,13 @@ public class Application {
         Application application = new Application();
 
         System.out.println(application.cheer());
-        System.out.println(application.count());
+        System.out.println(application.count(5000));
         System.out.println(application.greet());
 
     }
 
-    public Integer count (){
-        return 5000;
+    public Integer count (Integer count){
+        return count;
 
     }
 
