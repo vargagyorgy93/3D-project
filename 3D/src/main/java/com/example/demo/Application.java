@@ -15,7 +15,7 @@ public class Application {
         application.cheer("java");
         System.out.println(application.count());
         System.out.println(application.greet("Greeting!"));
-
+        
     }
 
     public Integer count (){
