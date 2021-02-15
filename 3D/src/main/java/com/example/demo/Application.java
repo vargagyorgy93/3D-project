@@ -12,8 +12,8 @@ public class Application {
 
         SpringApplication.run(Application.class, args);
         Application application = new Application();
-        
-        application.cheer("java");
+
+        application.cheer("java","monday");
         System.out.println(application.count());
         System.out.println(application.greet("Greeting!"));
 
@@ -26,7 +26,7 @@ public class Application {
 
     }
 
-    public void cheer(String teamName) {
+    public void cheer(String teamName, String weekday) {
         System.out.println(teamName);
     }
 
