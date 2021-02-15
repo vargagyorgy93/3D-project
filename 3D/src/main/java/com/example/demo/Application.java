@@ -8,12 +8,9 @@ public class Application {
 
 
     public static void main(String[] args) {
-
-
+        
         SpringApplication.run(Application.class, args);
         Application application = new Application();
-
-
 
         application.cheer("java");
         System.out.println(application.count());
