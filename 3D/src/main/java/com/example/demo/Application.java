@@ -13,7 +13,9 @@ public class Application {
         SpringApplication.run(Application.class, args);
         Application application = new Application();
 
-        System.out.println(application.cheer());
+
+
+        application.cheer("the 3D boiiiiiiiiiiis");
         System.out.println(application.count(5000));
         System.out.println(application.greet());
 
@@ -24,8 +26,8 @@ public class Application {
 
     }
 
-    public String cheer() {
-        return "the 3D boiiis";
+    public void cheer(String teamName) {
+        System.out.println(teamName);
     }
 
     public String greet(){
