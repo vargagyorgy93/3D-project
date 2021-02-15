@@ -16,13 +16,13 @@ public class Application {
 
 
         application.cheer("the 3D boiiiiiiiiiiis");
-        System.out.println(application.count(5000));
+        System.out.println(application.count());
         System.out.println(application.greet("Varga György"));
 
     }
 
-    public Integer count (Integer count){
-        return count;
+    public Integer count (){
+        return 5;
 
     }
 
