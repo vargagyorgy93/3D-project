@@ -12,10 +12,12 @@ public class Application {
 
         SpringApplication.run(Application.class, args);
         Application application = new Application();
-
+        
         application.cheer("java");
         System.out.println(application.count());
         System.out.println(application.greet("Greeting!"));
+
+
 
     }
 
