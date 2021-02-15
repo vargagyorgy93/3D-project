@@ -13,7 +13,9 @@ public class Application {
         Application application = new Application();
 
 
+
         System.out.println(application.count(60, 2021));
+        application.cheer("java","monday");
         System.out.println(application.greet("Greeting!", "Male"));
 
 
@@ -24,7 +26,7 @@ public class Application {
 
     }
 
-    public void cheer(String teamName) {
+    public void cheer(String teamName, String weekday) {
         System.out.println(teamName);
     }
 
