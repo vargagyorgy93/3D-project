@@ -9,13 +9,22 @@ public class Application {
 
     public static void main(String[] args) {
 
+
         SpringApplication.run(Application.class, args);
         Application application = new Application();
         System.out.println(application.count());
+        System.out.println(application.greet());
+
     }
 
     public Integer count (){
         return 5000;
+
     }
+
+    public String greet(){
+        return "Varga György";
+    }
+
 
 }
