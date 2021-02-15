@@ -14,9 +14,8 @@ public class Application {
         Application application = new Application();
 
         application.cheer("java");
-        System.out.println(application.count(5000));
+        System.out.println(application.count());
         System.out.println(application.greet("Greeting!"));
-
 
     }
 
