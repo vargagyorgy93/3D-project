@@ -16,7 +16,7 @@ public class Application {
 
         application.cheer("java");
         System.out.println(application.count());
-        System.out.println(application.greet("Greeting!"));
+        System.out.println(application.greet("Greeting!", "Male"));
 
 
 
@@ -31,7 +31,7 @@ public class Application {
         System.out.println(teamName);
     }
 
-    public String greet(String name){
-        return name;
+    public String greet(String name, String gender){
+        return name + " " + gender;
     }
 }
