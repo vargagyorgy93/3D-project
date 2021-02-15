@@ -13,13 +13,13 @@ public class Application {
         Application application = new Application();
 
         application.cheer("java");
-        System.out.println(application.count());
+        System.out.println(application.count(60, 2021));
         System.out.println(application.greet("Greeting!"));
-        
+
     }
 
-    public Integer count (){
-        return 5;
+    public Integer count (Integer age, Integer year){
+        return count(age, year);
 
     }
 
