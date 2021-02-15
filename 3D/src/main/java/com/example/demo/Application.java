@@ -13,13 +13,11 @@ public class Application {
         SpringApplication.run(Application.class, args);
         Application application = new Application();
 
-        application.cheer("the 3D boiiiiiiiiiiis");
-        System.out.println(application.count());
-        System.out.println(application.greet("Varga György"));
 
         application.cheer("java");
         System.out.println(application.count());
         System.out.println(application.greet("Greeting!"));
+
 
 
     }
